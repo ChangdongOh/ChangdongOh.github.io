@@ -54,7 +54,7 @@
         {% for education in site.data.education %}
         <div class="resume-item" itemscope itemprop="worksFor">
           <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
-          <p class="resume-item-details group" itemprop="description">{{ education.degree }} &bull; {{ education.year }}</p>
+          <p class="resume-item-details group" itemprop="description">{{ education.degree }} {{ education.year }}</p>
           <p class="resume-item-copy">{{ education.summary }}</p>
         </div>
         {% endfor %}
