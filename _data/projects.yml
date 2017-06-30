@@ -1,12 +1,23 @@
 # Projects
-# donutfinder.io
-- project: donutfinder.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  description: Donut Locator is an open source node/ember app that lets users find donuts within a defined radius from their home.
 
-#Springfield Donut Eater's User Group
-- project: Springfield Donut Eater's User Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  description: DEUG is a local monthly meetup in Springfield where we share all the latest tips and tricks for dat donut lifestyle. I organize the group, and typically eat most of the donuts.
+- title: "The Evolution of Moral Politics: Analysis on Moral Foundations of Korean Parties 2008-2016."
+  conf: 112th Annual Meeting of the American Sociological Association
+  placedate: 2017 August 12-15 (Montreal, Canada; Scheduled)
+  conf2: 3rd International Conference on Computational Social Science(IC2S2)
+  placedate2: 2017 July 11-13 (Cologne, Germany; Scheduled) 
+  description:
+
+
+- title: "Begging Morality: Automated Text Analysis on Moral Rhetoric of Korean Presidential Election in 2012."
+  conf: 18th Annual Conference of the Hong Kong Sociological Association
+  placedate: 2016 Dec 03 (Hong Kong)
+  conf2: Annual Conference of the Korea Academy of Complexity Studies
+  placedate2: 2016 Nov 26 (Seoul, Korea)
+  description:
+
+- title: Analysis on the Voter Mobilization Strategy of Korean Political Parties Based on Latent Dirichlet Allocation
+  conf: Korean National Conference for Sociology Graduate Students
+  placedate: 2016 Aug 29 (Seoul, Korea)
+  conf2:
+  placedate2:
+  description:
