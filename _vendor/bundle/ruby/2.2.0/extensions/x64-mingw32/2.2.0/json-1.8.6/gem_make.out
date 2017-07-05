@@ -1,4 +1,4 @@
-C:/Ruby22-x64/bin/ruby.exe -r ./siteconf20170630-23912-1fcupsf.rb extconf.rb
+C:/Ruby22-x64/bin/ruby.exe -r ./siteconf20170706-5780-fytah9.rb extconf.rb
 creating Makefile
 
 make "DESTDIR=" clean
