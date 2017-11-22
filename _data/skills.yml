@@ -1,13 +1,13 @@
 # Skills
 - skill: Programming
-  description: Python, R, Java
+  description: Python, R, Java, JavaScript
 - skill: Machine Learning
   description: numpy & pandas, scikit-learn(Python)
 - skill: Text Mining
   description: nltk, gensim(Python) / tm, stm(R)
 - skill: Statistical Analysis
-  description: Standard OLS, Logit/Probit/Tobit, Lasso and Ridge, Panel/Survival Analysis on STATA and R.
+  description: Standard OLS, Logit/Probit/Tobit, Lasso and Ridge, Panel/Survival Analysis on STATA and R
 - skill: Deep Learning Framework
   description: Tensorflow, Pytorch
 - skill: Network Analysis & Visualization
-  description: igraph(R), NetworkX(Python), Gephi, D3.js.
+  description: igraph(R), NetworkX(Python), Gephi, D3.js
