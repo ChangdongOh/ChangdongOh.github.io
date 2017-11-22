@@ -1,16 +1,16 @@
 # Lectures
   
-- title: Analysis in Social Research
+- title: Analysis in Social Research <a href = "https://github.com/ChangdongOh/socialresearchspss"> [github] </a>
   role: Teaching Assistant (to Prof. Jeong-han Kang)
   place: Department of Sociology, Yonsei University
   year: Fall Semester, 2017
   summary: Teached a syntax-based SPSS programming, Advised students to conduct a survey and analyze it.
 
-- title: Elementary R Programming 
+- title: Elementary R Programming <a href = "https://github.com/ChangdongOh/rbasic"> [github] </a>
   role: Teaching Assistant (to Bonsang Koo, Ph.D.)
   place: Social Science Data Innovation Center, Yonsei University
   year: Aug, 2017
-  summary: Supported an elementary R programming lecture.
+  summary: Supported to teach elementary R programming lecture.
 
 - title: Yonsei RC 101
   role: Teaching Assistant (to Prof. Bong-hwan Hahn)
@@ -18,8 +18,8 @@
   year: Spring/Fall Semester, 2017
   summary: Graded assignments, Designed and ran online discussion sessions.
 
-- title: <a href = "https://github.com/ChangdongOh/kdiworkshop20161229">Semantic Network Analysis using R</a>
+- title: Semantic Network Analysis using R <a href = "https://github.com/ChangdongOh/kdiworkshop20161229"> [github] </a>
   role: Lecturer
   place: Korea Development Institute
   year: Dec 29, 2016
-  summary: 
+  summary: Teached a basic R programming, network analysis and visualization.
