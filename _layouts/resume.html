@@ -138,24 +138,24 @@
       <!-- end Work In Progress -->
       {% endif %}
 
-      {% if site.resume_section_associations %}
-      <!-- begin Associations -->
+      {% if site.resume_section_activities %}
+      <!-- begin Activities -->
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Research Experiences and Academic Activities</h2>
+          <h2>Academic Activities and Research Grants</h2>
         </header>
 
-        {% for association in site.data.associations %}
+        {% for activity in site.data.activities %}
         <div class="resume-item">
-          <h3 class="resume-item-title">{{ association.title }}</h3>
-          <p class="resume-item-details">{{ association.role }} &bull; {{ association.year }}</p>
-          <p class="resume-item-copy">{{ association.summary }}</p>
+          <h3 class="resume-item-title">{{ activity.title }}</h3>
+          <p class="resume-item-details">{{ activity.role }} &bull; {{ activity.year }}</p>
+          <p class="resume-item-copy">{{ activity.summary }}</p>
         </div>
         {% endfor %}
 
       </section>
-      <!-- end Associations -->
+      <!-- end Activities -->
       {% endif %}
 
       {% if site.resume_section_lectures %}

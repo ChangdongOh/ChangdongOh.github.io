@@ -32,7 +32,7 @@ resume_section_publication:      true
 resume_section_conferences:        true
 resume_section_wip:     true
 resume_section_links:           false
-resume_section_associations:    true
+resume_section_activities:    true
 resume_section_lectures:        true
 resume_section_skills:          true
 
