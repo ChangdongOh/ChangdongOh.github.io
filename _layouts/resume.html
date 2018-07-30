@@ -98,44 +98,44 @@
       <!-- end Publication -->
       {% endif %}
 
-      {% if site.resume_section_projects %}
-      <!-- begin Projects -->
+      {% if site.resume_section_conferences %}
+      <!-- begin Conferences -->
       <section class="content-section">
         <header class="section-header">
           <h2>Academic Conferences</h2>
         </header>
 
-        {% for project in site.data.projects %}
+        {% for conference in site.data.conferences %}
         <div class="resume-item" itemscope itemprop="worksFor">
-          <h3 class="resume-item-title" itemprop="name">{{ project.title }}</h3>
-          <blockquote><p class="resume-item-details" itemprop="description">{{ project.conf }} </p></blockquote>
-		  <blockquote><p class="resume-item-list">{{ project.placedate }}</p></blockquote>		  
-          <blockquote><p class="resume-item-details" itemprop="description">{{ project.conf2 }}</p></blockquote>
-		  <blockquote><p class="resume-item-list" itemprop="description">{{ project.placedate2 }}</p></blockquote>
+          <h3 class="resume-item-title" itemprop="name">{{ conference.title }}</h3>
+          <blockquote><p class="resume-item-details" itemprop="description">{{ conference.conf }} </p></blockquote>
+		  <blockquote><p class="resume-item-list">{{ conference.placedate }}</p></blockquote>		  
+          <blockquote><p class="resume-item-details" itemprop="description">{{ conference.conf2 }}</p></blockquote>
+		  <blockquote><p class="resume-item-list" itemprop="description">{{ conference.placedate2 }}</p></blockquote>
         </div>
         {% endfor %}
 
       </section>
-      <!-- end Projects -->
+      <!-- end Conferences -->
       {% endif %}
 
-      {% if site.resume_section_recognition %}
-      <!-- begin Education -->
+      {% if site.resume_section_wip %}
+      <!-- begin Work In Progress -->
       <section class="content-section">
         <header class="section-header">
           <h2>Work in Progress</h2>
         </header>
 
-        {% for recognition in site.data.recognitions %}
+        {% for work in site.data.wip %}
         <div class="resume-item" itemscope itemprop="worksFor">
-          <h3 class="resume-item-title" itemprop="name">{{ recognition.title }}</h3>
-          <p class="resume-item-details group" itemprop="description">{{ recognition.author }}</p>
-          <blockquote><p class="resume-item-list">{{ recognition.complete }}</p><blockquote>		  
-          <blockquote><p class="resume-item-copy">{{ recognition.summary }}</p><blockquote>
+          <h3 class="resume-item-title" itemprop="name">{{ work.title }}</h3>
+          <p class="resume-item-details group" itemprop="description">{{ work.author }}</p>
+          <blockquote><p class="resume-item-list">{{ work.complete }}</p><blockquote>		  
+          <blockquote><p class="resume-item-copy">{{ work.summary }}</p><blockquote>
         </div>
         {% endfor %}
       </section>
-      <!-- end Education -->
+      <!-- end Work In Progress -->
       {% endif %}
 
       {% if site.resume_section_associations %}

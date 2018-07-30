@@ -29,12 +29,12 @@ resume_looking_for_work:        "yes"
 resume_section_education:       true
 resume_section_interests:       true
 resume_section_publication:      true
-resume_section_projects:        true
-resume_section_skills:          true
-resume_section_recognition:     true
+resume_section_conferences:        true
+resume_section_wip:     true
 resume_section_links:           false
 resume_section_associations:    true
 resume_section_lectures:        true
+resume_section_skills:          true
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
