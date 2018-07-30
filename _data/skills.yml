@@ -6,7 +6,7 @@
 - skill: Text Mining
   description: nltk, gensim(Python) / tm, stm(R)
 - skill: Statistical Analysis
-  description: Standard OLS, Logit/Probit/Tobit, Lasso and Ridge, Panel/Survival Analysis on STATA and R
+  description: Lasso and Ridge, Panel/Survival Analysis on STATA and R
 - skill: Deep Learning Framework
   description: Tensorflow, Pytorch
 - skill: Network Analysis & Visualization

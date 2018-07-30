@@ -80,22 +80,22 @@
       <!-- end Interests -->
       {% endif %}
 	  
-      {% if site.resume_section_experience %}
-      <!-- begin Education -->
+      {% if site.resume_section_publication %}
+      <!-- begin Publication -->
       <section class="content-section">
         <header class="section-header">
           <h2>Refereed Publication</h2>
         </header>
 
-        {% for experience in site.data.experience %}
+        {% for publication in site.data.publication %}
         <div class="resume-item" itemscope itemprop="worksFor">
-          <h3 class="resume-item-title" itemprop="name">{{ experience.title }}</h3>
-          <p class="resume-item-details group" itemprop="description">{{ experience.author }}</p>
-          <blockquote><p class="resume-item-copy">{{ experience.summary }}</p><blockquote>
+          <h3 class="resume-item-title" itemprop="name">{{ publication.title }}</h3>
+          <p class="resume-item-details group" itemprop="description">{{ publication.author }}</p>
+          <blockquote><p class="resume-item-copy">{{ publication.summary }}</p><blockquote>
         </div>
         {% endfor %}
       </section>
-      <!-- end Education -->
+      <!-- end Publication -->
       {% endif %}
 
       {% if site.resume_section_projects %}
